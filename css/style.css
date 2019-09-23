@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+}
+header {
+    position: sticky;
+    display: flex;
+    top: 0;
+    font-size: 1em;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+}
+
+header a{
+    color: whitesmoke;
+    padding: 0 1em 0 0;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    height: 6em;
+    width: 100%;
+} 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    height: 4em;
+}
+
+#mifoto{
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    padding: 1em;
+}
+
+.inicio {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding: 0 1em 0 0;
+}
+.menu {
+    width: 70%;
+    text-align: right;
+    align-items: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.about figure{
+    width: 25%;
+    margin: 0;
+    min-width: 248px;
+}
+
+.about img {    
+    border-radius: 0 25% 80%  0;
+    box-shadow: 0 9px #999;
+}
+.mensaje-about {
+    word-wrap: break-word !important;
+    min-width: 25%;
+    flex: 300px;
+    padding: 0em 2em;
+    display: grid;
+    align-content: center;
+}
+.titulo-about{
+    font-size: 13px !important;
+    display: grid;    
+}
+
+.porjectos {
+    flex: 50;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    min-width: 484px;
+}
+
+
+.porjectos div{
+    padding: 0 1em;
+}
+
+.contacto {
+    flex: 50;
+    min-width: 484px;
+    padding-left: 3em;
+}
+
+.contacto input{
+    margin: 0.5em;
+}
+
+textarea {
+    width: 80%;
+    resize: none;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 3em; 
+}
+
+form div{
+    min-width: 250px;
+}
+
+.texta-area {
+    width: 100%;
+}
+
+button {
+    background-color: lightseagreen;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    border: none;
+    padding-top: 1em;
+    width: 82%;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 3em;
+}
+button:hover {
+    background-color: aqua;
+}
+
+button:active {
+  background-color: cadetblue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.sideshow-left{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 484px;
+    flex: 50;
+
+}
+.sideshow-right{
+    padding: 0 1em 0 1em;
+    align-self: center;
+    min-width: 484px;
+    flex: 50;
+    background-color: gainsboro;
+}
+.sideshow-left div{
+    padding: 1em 1em;
+    flex: 25;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sideshow-left div:hover{
+    background-color: lightgray;
+}
+.sideshow-left div:active{
+    transform: translateY(4px);
+}
+
+iframe{
+    width: 50%;
+    min-width: 484px;
+}
+
+.cert-img {
+    display: flex;
+    min-width: 484px;
+    margin: 0;
+    flex: 50;
+    flex-wrap: wrap;
+}
+
+.cert-img div{
+    width: 20%;
+    align-self: center;
+}
+
+.cert-img div:active{
+    transform: translateY(4px);
+}
+
+.cert-img div:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.certificaciones {
+    margin: 3em 0 3em 0;
+    padding: 3em 0 em 0;
+}
+
+.technologies{
+    padding-top: 3em;
+}
