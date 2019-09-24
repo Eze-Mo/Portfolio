@@ -1,9 +1,9 @@
+//@ts-check
 $(document).ready(() => {
-    $('.sideshow-right').children().hide(); 
+    $('.sideshow-right').children().hide();
     $('#gform').on('submit', (e) => {
         $('#gform *').fadeOut(1000)
-        $('#gform *').delay(100000)
-        $('#gform *').prepend('El formulario fue enviado con exito')
+        $('#contacto').append('<div><h1>El formulario fue enviado con exito</h1></div>')
     });
     $('.sideshow-right').children("#core").show();
     $("#sideshow-left").bind('click', function(event) {
